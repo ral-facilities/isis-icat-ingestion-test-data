@@ -1,0 +1,172 @@
+2020-10-15T09:23:07  *** Timing information for refreshCachedValues: real(0.046843) thread(kernel=0, user=0) process(kernel=0, user=0)
+2020-10-15T09:23:07  *** Timing information for CRPTProxy::unloadCRPT: real(0) thread(kernel=0, user=0) process(kernel=0, user=0)
+2020-10-15T09:23:07  *** Timing information for CRPTProxy::loadCRPT: real(0.007807) thread(kernel=0.015625, user=0) process(kernel=0.015625, user=0.015625)
+2020-10-15T09:23:08  *** Timing information for CRPTProxy::updateFrom: real(0.305456) thread(kernel=0.15625, user=0.109375) process(kernel=0.1875, user=0.109375)
+2020-10-15T09:23:10  *** Timing information for CRPTProxy::createFrom: real(2.9323) thread(kernel=0.171875, user=0.140625) process(kernel=0.234375, user=0.1875)
+2020-10-15T09:23:10  *** Timing information for END 17717: real(6.10026) thread(kernel=0.28125, user=0.40625) process(kernel=0.453125, user=0.5)
+2020-10-15T10:56:51  BEGIN run 17718
+2020-10-15T10:56:51  Data dae table  has changed since last load; old values will still be used
+2020-10-15T10:56:51  Run started in software period 1
+2020-10-15T10:56:51  *** Timing information for CRPTProxy::updateFrom: real(0.134151) thread(kernel=0, user=0.109375) process(kernel=0, user=0.109375)
+2020-10-15T10:56:51  Setting up DAE
+2020-10-15T10:56:51  Highest dae, detector card, crate number used = 0, 5, 5
+2020-10-15T10:56:51  Number of time regimes = 1
+2020-10-15T10:56:51  CRPT memory used for histograms = 11 Mb
+2020-10-15T10:56:51  Number of periods (daq, total) = (1, 1)
+2020-10-15T10:56:51  Resetting DAE - ignore veto counter values as not yet cleared
+2020-10-15T10:56:51  Using 0 data into dae cards
+2020-10-15T10:56:51  FIFO Veto() is ENABLED (vetoed 0) frames
+2020-10-15T10:56:51  SMP (chopper) Veto() is DISABLED (counted 0) frames
+2020-10-15T10:56:51  Fermi Chopper0 Veto() is DISABLED (counted 0) frames
+2020-10-15T10:56:51  TS2 Pulse Veto() is DISABLED (counted 139253) frames
+2020-10-15T10:56:51  ISIS 50 Hz Veto() is DISABLED (counted 10400) frames
+2020-10-15T10:56:51  External Veto 0() is DISABLED (counted 0) frames
+2020-10-15T10:56:51  External Veto 1() is DISABLED (counted 0) frames
+2020-10-15T10:56:51  External Veto 2() is ENABLED (vetoed 0) frames
+2020-10-15T10:56:51  External Veto 3() is DISABLED (counted 0) frames
+2020-10-15T10:56:51  Starting clear of DAE memory try 0 on 5 cards, thread ID 9836
+2020-10-15T10:56:53  Clear DAE memory: 1/5 complete
+2020-10-15T10:56:53  Clear DAE memory: 2/5 complete
+2020-10-15T10:56:53  Clear DAE memory: 3/5 complete
+2020-10-15T10:56:53  Clear DAE memory: 4/5 complete
+2020-10-15T10:56:53  Clear DAE memory: 5/5 complete
+2020-10-15T10:56:53  Finished clear of DAE memory
+2020-10-15T10:56:53  *** Timing information for Clear histogram memory: real(1.81788) thread(kernel=0, user=0) process(kernel=0.03125, user=0.03125)
+2020-10-15T10:56:53  Programming Time channels
+2020-10-15T10:56:53  Global Frame sync delay = 0 us
+2020-10-15T10:56:53  Electronics delay = 7 clock pulses
+2020-10-15T10:56:53  Setting 17250 time channels from 4.781250 to 19499.781250 us on card 1
+2020-10-15T10:56:53  Setting FS delay on DC 1 to 0 us
+2020-10-15T10:56:53  Setting 17250 time channels from 4.781250 to 19499.781250 us on card 5
+2020-10-15T10:56:53  Setting FS delay on DC 5 to 0 us
+2020-10-15T10:56:53  Programming POSLUT
+2020-10-15T10:56:53  Card: 1 DAE2 Highest: 4 DAE1 low: 145 DAE1 high: 148 NPOS: 4
+2020-10-15T10:56:53  MPOS: 0 to 0
+2020-10-15T10:56:53  MODN: 0 to 3
+2020-10-15T10:56:53  Card 1 using 345020 of 134217728 bytes of available histogram memory
+2020-10-15T10:56:53  *** Detector Card 2 not used
+2020-10-15T10:56:53  *** Detector Card 3 not used
+2020-10-15T10:56:53  *** Detector Card 4 not used
+2020-10-15T10:56:53  There is a gap of total size 4 in the DAE1 spectra on the card
+2020-10-15T10:56:53  Card: 5 DAE2 Highest: 168 DAE1 low: 1 DAE1 high: 172 NPOS: 168
+2020-10-15T10:56:53  MPOS: 0 to 15
+2020-10-15T10:56:53  MODN: 4 to 14
+2020-10-15T10:56:53  Card 5 using 11661676 of 134217728 bytes of available histogram memory
+2020-10-15T10:56:54  Software periods enabled
+2020-10-15T10:56:54  (setting period card, if present, to 1 hardware period of 15000 frames)
+2020-10-15T10:56:54  No period card present
+2020-10-15T10:56:54  Disabling hardware periods
+2020-10-15T10:56:54  *** Timing information for refreshCachedValues: real(0.037085) thread(kernel=0, user=0.015625) process(kernel=0, user=0.015625)
+2020-10-15T10:56:54  Setting vetos
+2020-10-15T10:56:54  Enabling FIFO veto
+2020-10-15T10:56:54  Disabling SMP veto
+2020-10-15T10:56:54  Disabling EXTERNAL veto 0
+2020-10-15T10:56:54  Disabling EXTERNAL veto 1
+2020-10-15T10:56:54  Enabling EXTERNAL veto 2
+2020-10-15T10:56:54  Disabling EXTERNAL veto 3
+2020-10-15T10:56:54  Disabling Fermi Chopper veto 0
+2020-10-15T10:56:54  Disabling TS2 Pulse veto
+2020-10-15T10:56:54  Disabling ISIS 50Hz veto
+2020-10-15T10:56:54  Clearing frames, vetos and PPP counters
+2020-10-15T10:56:54  Disabling EC delayed start
+2020-10-15T10:56:54  *** Timing information for refreshCachedValues: real(0.040012) thread(kernel=0, user=0.015625) process(kernel=0, user=0.015625)
+2020-10-15T10:56:54  *** Timing information for BEGIN: real(2.72058) thread(kernel=0.140625, user=0.34375) process(kernel=0.28125, user=0.4375)
+2020-10-15T11:08:37  Saving run
+2020-10-15T11:08:37  1 DAQ periods of size 2984423 words
+2020-10-15T11:08:37  FIFO Veto() is ENABLED (vetoed 0) frames
+2020-10-15T11:08:37  SMP (chopper) Veto() is DISABLED (counted 0) frames
+2020-10-15T11:08:37  Fermi Chopper0 Veto() is DISABLED (counted 0) frames
+2020-10-15T11:08:37  TS2 Pulse Veto() is DISABLED (counted 2931) frames
+2020-10-15T11:08:37  ISIS 50 Hz Veto() is DISABLED (counted 0) frames
+2020-10-15T11:08:37  External Veto 0() is DISABLED (counted 0) frames
+2020-10-15T11:08:37  External Veto 1() is DISABLED (counted 0) frames
+2020-10-15T11:08:37  External Veto 2() is ENABLED (vetoed 0) frames
+2020-10-15T11:08:37  External Veto 3() is DISABLED (counted 0) frames
+2020-10-15T11:08:37  Disabling EC delayed start
+2020-10-15T11:08:37  Run stopped in period 1 (DAQ 1), sequence 0
+2020-10-15T11:08:37  Good/Total uAH = 15.874288 / 15.874288
+2020-10-15T11:08:37  Good/Total frames = 14656 / 14656
+2020-10-15T11:08:37  *** Timing information for stopDataCollection(): real(0.108325) thread(kernel=0.015625, user=0.0625) process(kernel=0.015625, user=0.0625)
+2020-10-15T11:08:37  *** Timing information for CRPTProxy::zeroHistRawData: real(0.004879) thread(kernel=0, user=0) process(kernel=0, user=0)
+2020-10-15T11:08:39  *** Timing information for UPDATE: real(2.35487) thread(kernel=0.03125, user=0.0625) process(kernel=0.046875, user=0.140625)
+2020-10-15T11:08:39  Average DAE transfer rate = 5069 KByte / s
+2020-10-15T11:08:39  *** Timing information for updateCRPTWithDAE: real(2.36371) thread(kernel=0.046875, user=0.15625) process(kernel=0.0625, user=0.28125)
+2020-10-15T11:08:39  *** Timing information for getSE: real(0.011847) thread(kernel=0.015625, user=0) process(kernel=0.015625, user=0)
+2020-10-15T11:08:39  *** Timing information for updateCRPTwithSE: real(0.000987) thread(kernel=0, user=0) process(kernel=0, user=0)
+2020-10-15T11:08:39  Writing nexus data file c:\data\INS17718.n001
+2020-10-15T11:08:39  Writing raw data file c:\data\INS17718.s01
+2020-10-15T11:08:39  compression level = 1
+2020-10-15T11:08:39  compression block size = 8
+2020-10-15T11:08:39  *** Timing information for Time to write ISISRAW: real(0.052321) thread(kernel=0, user=0.046875) process(kernel=0.015625, user=0.109375)
+2020-10-15T11:08:40  *** Timing information for writeISISNeXus(counts): real(0.326763) thread(kernel=0.046875, user=0.234375) process(kernel=0.046875, user=0.234375)
+2020-10-15T11:08:40  *** Timing information for writeISISNeXus(detector): real(0.37271) thread(kernel=0.046875, user=0.265625) process(kernel=0.046875, user=0.265625)
+2020-10-15T11:08:40  Found 17 seblocks
+2020-10-15T11:08:40  Largest alarm status array size = 1, initial reserved size = 50
+2020-10-15T11:08:40  *** Timing information for writeISISNeXus(selogs done): real(0.370842) thread(kernel=0.03125, user=0.3125) process(kernel=0.03125, user=0.3125)
+2020-10-15T11:08:41  *** Timing information for writeISISNeXus(runlogs): real(0.141505) thread(kernel=0, user=0.140625) process(kernel=0, user=0.140625)
+2020-10-15T11:08:41  *** Timing information for writeISISNeXus(vms): real(0.079048) thread(kernel=0, user=0.078125) process(kernel=0, user=0.078125)
+2020-10-15T11:08:41  *** Timing information for writeISISNeXus: real(1.70803) thread(kernel=0.125, user=1.15625) process(kernel=0.171875, user=1.21875)
+2020-10-15T11:08:41  *** Timing information for saveCRPTToFile: real(1.72857) thread(kernel=0.015625, user=0.0625) process(kernel=0.1875, user=1.23438)
+2020-10-15T11:08:41  *** Timing information for updateCRPTWithSEandSaveToFile: real(1.7522) thread(kernel=0.03125, user=0.0625) process(kernel=0.203125, user=1.23438)
+2020-10-15T11:08:41  *** Timing information for STORE: real(1.83321) thread(kernel=0.0625, user=0.078125) process(kernel=0.234375, user=1.25)
+2020-10-15T12:28:03  Saving run
+2020-10-15T12:28:03  1 DAQ periods of size 2984423 words
+2020-10-15T12:28:03  FIFO Veto() is ENABLED (vetoed 0) frames
+2020-10-15T12:28:03  SMP (chopper) Veto() is DISABLED (counted 0) frames
+2020-10-15T12:28:03  Fermi Chopper0 Veto() is DISABLED (counted 1) frames
+2020-10-15T12:28:03  TS2 Pulse Veto() is DISABLED (counted 35016) frames
+2020-10-15T12:28:03  ISIS 50 Hz Veto() is DISABLED (counted 1) frames
+2020-10-15T12:28:03  External Veto 0() is DISABLED (counted 0) frames
+2020-10-15T12:28:03  External Veto 1() is DISABLED (counted 0) frames
+2020-10-15T12:28:03  External Veto 2() is ENABLED (vetoed 1) frames
+2020-10-15T12:28:03  External Veto 3() is DISABLED (counted 0) frames
+2020-10-15T12:28:03  Disabling EC delayed start
+2020-10-15T12:28:03  Run stopped in period 1 (DAQ 1), sequence 0
+2020-10-15T12:28:03  Good/Total uAH = 189.590637 / 189.591995
+2020-10-15T12:28:03  Good/Total frames = 175083 / 175084
+2020-10-15T12:28:03  *** Timing information for stopDataCollection(): real(0.095638) thread(kernel=0, user=0.015625) process(kernel=0, user=0.015625)
+2020-10-15T12:28:03  *** Timing information for CRPTProxy::zeroHistRawData: real(0.004879) thread(kernel=0, user=0) process(kernel=0, user=0)
+2020-10-15T12:28:06  *** Timing information for UPDATE: real(2.31581) thread(kernel=0.03125, user=0.0625) process(kernel=0.03125, user=0.078125)
+2020-10-15T12:28:06  Average DAE transfer rate = 5154 KByte / s
+2020-10-15T12:28:06  *** Timing information for updateCRPTWithDAE: real(2.32362) thread(kernel=0.046875, user=0.078125) process(kernel=0.046875, user=0.109375)
+2020-10-15T12:28:06  *** Timing information for getSE: real(0.013662) thread(kernel=0, user=0) process(kernel=0, user=0)
+2020-10-15T12:28:06  *** Timing information for updateCRPTwithSE: real(0.000976) thread(kernel=0, user=0) process(kernel=0, user=0)
+2020-10-15T12:28:06  Writing nexus data file c:\data\INS17718.n002
+2020-10-15T12:28:06  Writing raw data file c:\data\INS17718.s02
+2020-10-15T12:28:06  compression level = 1
+2020-10-15T12:28:06  compression block size = 8
+2020-10-15T12:28:06  *** Timing information for Time to write ISISRAW: real(0.070265) thread(kernel=0.03125, user=0.015625) process(kernel=0.046875, user=0.078125)
+2020-10-15T12:28:06  *** Timing information for writeISISNeXus(counts): real(0.459649) thread(kernel=0.03125, user=0.390625) process(kernel=0.0625, user=0.40625)
+2020-10-15T12:28:06  *** Timing information for writeISISNeXus(detector): real(0.497709) thread(kernel=0.03125, user=0.421875) process(kernel=0.0625, user=0.4375)
+2020-10-15T12:28:07  Found 17 seblocks
+2020-10-15T12:28:07  Largest alarm status array size = 1, initial reserved size = 50
+2020-10-15T12:28:07  *** Timing information for writeISISNeXus(selogs done): real(0.331806) thread(kernel=0, user=0.3125) process(kernel=0, user=0.3125)
+2020-10-15T12:28:07  *** Timing information for writeISISNeXus(runlogs): real(0.139554) thread(kernel=0, user=0.140625) process(kernel=0, user=0.140625)
+2020-10-15T12:28:07  *** Timing information for writeISISNeXus(vms): real(0.07124) thread(kernel=0, user=0.078125) process(kernel=0, user=0.078125)
+2020-10-15T12:28:07  *** Timing information for writeISISNeXus: real(1.7576) thread(kernel=0.046875, user=1.34375) process(kernel=0.109375, user=1.40625)
+2020-10-15T12:28:07  *** Timing information for saveCRPTToFile: real(1.77906) thread(kernel=0.046875, user=0.03125) process(kernel=0.125, user=1.40625)
+2020-10-15T12:28:07  *** Timing information for updateCRPTWithSEandSaveToFile: real(1.80541) thread(kernel=0.046875, user=0.0625) process(kernel=0.125, user=1.4375)
+2020-10-15T12:28:07  *** Timing information for STORE: real(1.8669) thread(kernel=0.0625, user=0.0625) process(kernel=0.140625, user=1.4375)
+2020-10-15T12:50:04  ENDing run 17718
+2020-10-15T12:50:04  *** Timing information for lockCRPT(): real(0.005855) thread(kernel=0, user=0) process(kernel=0, user=0)
+2020-10-15T12:50:04  FIFO Veto() is ENABLED (vetoed 0) frames
+2020-10-15T12:50:04  SMP (chopper) Veto() is DISABLED (counted 0) frames
+2020-10-15T12:50:04  Fermi Chopper0 Veto() is DISABLED (counted 1) frames
+2020-10-15T12:50:04  TS2 Pulse Veto() is DISABLED (counted 48185) frames
+2020-10-15T12:50:04  ISIS 50 Hz Veto() is DISABLED (counted 8) frames
+2020-10-15T12:50:04  External Veto 0() is DISABLED (counted 0) frames
+2020-10-15T12:50:04  External Veto 1() is DISABLED (counted 0) frames
+2020-10-15T12:50:04  External Veto 2() is ENABLED (vetoed 1) frames
+2020-10-15T12:50:04  External Veto 3() is DISABLED (counted 0) frames
+2020-10-15T12:50:04  Disabling EC delayed start
+2020-10-15T12:50:04  Run stopped in period 1 (DAQ 1), sequence 0
+2020-10-15T12:50:04  Good/Total uAH = 260.851196 / 260.852570
+2020-10-15T12:50:04  Good/Total frames = 240906 / 240907
+2020-10-15T12:50:04  *** Timing information for stopDataCollection(): real(0.154192) thread(kernel=0.015625, user=0.0625) process(kernel=0.015625, user=0.078125)
+2020-10-15T12:50:04  *** Timing information for endRunMain(stopDataCollection()): real(0.172734) thread(kernel=0.015625, user=0.078125) process(kernel=0.015625, user=0.09375)
+2020-10-15T12:50:04  *** Timing information for CRPTProxy::updateFrom: real(0.141505) thread(kernel=0, user=0.125) process(kernel=0.015625, user=0.125)
+2020-10-15T12:50:04  1 DAQ periods of size 2984423 words
+2020-10-15T12:50:04  *** Timing information for CRPTProxy::zeroHistRawData: real(0.004879) thread(kernel=0, user=0) process(kernel=0, user=0)
+2020-10-15T12:50:07  *** Timing information for UPDATE: real(2.21139) thread(kernel=0.046875, user=0.0625) process(kernel=0.0625, user=0.125)
+2020-10-15T12:50:07  Average DAE transfer rate = 5398 KByte / s
+2020-10-15T12:50:07  *** Timing information for updateCRPTWithDAE: real(2.22408) thread(kernel=0.046875, user=0.0625) process(kernel=0.0625, user=0.125)
